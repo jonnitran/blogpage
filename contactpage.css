@@ -1,0 +1,194 @@
+body {
+    font-family: "Rubik", Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    background: #f9f9f9;
+    }
+    h2 h4{
+    font-family: "Rubik", Georgia, "Times New Roman", serif;
+    text-align: left;
+    }
+    form {
+    width: 100%;
+    background: #fff;
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    margin: 50px auto 0;
+    border-radius: 5px;
+    }
+    label {
+    display: block;
+    margin-bottom: 5px
+    }
+    label i {
+    color: #999;
+    font-size: 80%;
+    }
+    
+    input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    }
+    .row {
+    padding-bottom: 10px;
+    }
+    .form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+    }
+    .form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+    }
+    .error {
+    color: red;
+    font-size: 90%;
+    }
+    input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #20be00;
+    border-color: #20be00;
+    box-shadow: 0 3px 0 #20be00;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    }
+    input[type="submit"]:hover {
+    background: #0165b6;
+    }
+    
+.newblog{
+    font-size: 110%;
+    font-weight: 100;
+    font-family: "Rubik";
+    margin-top: 10px
+
+}
+    .blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .textbox{
+    height:200px;
+  }
+
+  .blog-header-logo {
+    font-family: "Rubik", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+  }
+
+  .blog-header-nav{
+    font-family: "Rubik", Georgia, "Times New Roman", serif;
+    text-align: left;
+  }
+  
+  .blog-header-logo:hover {
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Rubik", Georgia, "Times New Roman", serif;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  @media (min-width: 768px) {
+    .display-4 {
+      font-size: 3rem;
+    }
+  }
+  
+  .h-250 { height: 250px; }
+  @media (min-width: 768px) {
+    .h-md-250 { height: 250px; }
+  }
+
+   /*Margins
+  */
+  #left{
+    width:15%;
+    height: 100%;
+    background-color: #202020	;
+    left: 0;
+
+  }
+  #right{
+    width:15%;
+    height: 100%;
+    background-color: #202020	;
+    left: 85%;
+  }
+ 
+  /* 
+    Contact
+  */
+
+#contact_form{
+  text-align: center;
+}
+
+.error{
+  color: red;
+}
+
+
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .blog-header-logo {
+    font-family: "Rubik", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+  }
+
+  .blog-header-nav{
+    font-family: "Rubik", Georgia, "Times New Roman", serif;
+    text-align: left;
+  }
+  
+  .blog-header-logo:hover {
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Rubik", Georgia, "Times New Roman", serif;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  @media (min-width: 768px) {
+    .display-4 {
+      font-size: 3rem;
+    }
+  }
+  
+  .h-250 { height: 250px; }
+  @media (min-width: 768px) {
+    .h-md-250 { height: 250px; }
+  }
+  
+  #left{
+    width:15%;
+    height: 100%;
+    background-color: #202020	;
+    left: 0;
+    position: absolute;
+
+  }
+  #right{
+    width:15%;
+    height: 100%;
+    background-color: #202020	;
+    left: 85%;
+    position: absolute;
+  }

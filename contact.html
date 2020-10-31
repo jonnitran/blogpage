@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>JavaScript Form validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./contactpage.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#563d7c">
     
+
+</head>
+
+<body>
+    <div id="left"></div> 
+    <div id="right"></div>
+
+
+    <main role="main" class="container">
+<div class="row">
+    <div class="container">
+    <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col text-left">
+            <a class="blog-header-logo text-dark" href="homepage.html">Home</a>
+          </div>
+          <div class="col-3 text-right">
+            <a class="blog-header-nav text-dark" href="about.html">About |</a>
+            <a class="blog-header-nav text-dark" href="blogs.html">Blog |</a>
+            <a class="blog-header-nav text-dark" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <div class=" col-md-8">
+        <form name="contactForm" oninput="validateForm()" method="post">
+            <h2>Contact us</h2>
+            <div class="row">
+                <label>Name</label>
+                <input type="text" name="name">
+                <div class="error" id="nameErr"></div>
+            </div>
+            <div class="row">
+                <label>Email Address</label>
+                <input type="text" name="email">
+                <div class="error" id="emailErr"></div>
+            </div>
+            <div class="row">
+                <label>Mobile Number</label>
+                <input type="text" name="mobile" maxlength="10">
+                <div class="error" id="mobileErr"></div>
+            </div>
+            <div class="row">
+                <label>Comment</label>
+                <input type="textbox" name="comment" class="textbox">
+            </div>
+            <div class="row">
+                <input type="submit" id="submit" disabled value="Submit">
+            </div>
+        </form>
+    </div>
+
+    <aside class="col-md-4 blog-sidebar">
+        <br></br>
+        <div class="p-4 mb-3 bg-light rounded">
+          <h4 class="form">Image placeholder</h4>
+            <img>
+        </div>
+  
+        <div class="p-4">
+            <p>Image caption text</p>
+        </div>
+      </aside>
+    </div>
+    </main>
+    <script src="formvalidation.js"></script>
+
 </body>
+
 </html>

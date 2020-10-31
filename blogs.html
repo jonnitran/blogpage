@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blogs</title>
+    <link rel="stylesheet" href="./contactpage.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#563d7c">
+
 </head>
 <body>
-    
+    <div id="left"></div> 
+    <div id="right"></div>
+    <main role="main" class="container">
+        <div class="row">
+            <div class="container">
+
+            <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col text-left">
+                <a class="blog-header-logo text-dark" href="homepage.html">Home</a>
+            </div>
+            <div class="col-3 text-right">
+                <a class="blog-header-nav text-dark" href="about.html">About |</a>
+                <a class="blog-header-nav text-dark" href="blogs.html">Blog |</a>
+                <a class="blog-header-nav text-dark" href="contact.html">Contact</a>
+            </div>
+            </div>
+            </header>
+        </div>
+
+        <div class="container">
+            <div id="allblogs">
+            <br></br>
+            <h1>Latest Blogs</h1>
+            <br></br>
+            <h2>What is Runescape</h2>
+            <p>Runescape is an mmo. It is an mmo made by Jagex, a company based in the U.K. It is a very old game but played by thousands to day. It was created in the early thousands.</p>
+            <br></br>
+            <button class = "newblog" id="createblog" onclick="writePost()">Add a new blog</button>
+            <br></br>
+            </div>
+
+            <div id="postblog" style="visibility: hidden">
+
+                <div class="newblog">Blog Title</div>
+                <input type="text" id="newblogtitle" class="newblog">
+                <div class="error" id="titleErr"></div>
+                <br></br>
+                <div class="newblog">Blog Contents</div>
+                <input type="text" id="blogpost" class="newblog">
+                <div class="error" id="paraErr"></div>
+                <button id="postblog"  class="newblog" onclick="newPost()">Post</button>
+                <div></div>
+
+            </div>
+        </div>
+
+
+      </div>
+    </main>
+
+    <script src="newpost.js"></script>
 </body>
 </html>

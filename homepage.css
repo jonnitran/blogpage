@@ -1,0 +1,66 @@
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .blog-header-logo {
+    font-family: "Rubik", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+  }
+
+  .blog-header-nav{
+    font-family: "Rubik", Georgia, "Times New Roman", serif;
+    text-align: left;
+  }
+  
+  .blog-header-logo:hover {
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 p{
+    font-family: "Rubik", Georgia, "Times New Roman", serif;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  @media (min-width: 768px) {
+    .display-4 {
+      font-size: 3rem;
+    }
+  }
+  
+  .h-250 { height: 250px; }
+  @media (min-width: 768px) {
+    .h-md-250 { height: 250px; }
+  }
+
+   /*Margins
+  */
+  #left{
+    width:15%;
+    height: 100%;
+    background-color: #202020	;
+    left: 0;
+    position: absolute;
+
+  }
+  #right{
+    width:15%;
+    height: 100%;
+    background-color: #202020	;
+    left: 85%;
+    position: absolute;
+  }
+ 
+  /* 
+    Contact
+  */
+
+#contact_form{
+  text-align: center;
+}
+
+.error{
+  color: red;
+}
